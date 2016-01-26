@@ -30,9 +30,7 @@ require 'scraperwiki.php';
 
 $endtime = time() + (60*60) * 23; //23h 
 
-for ($id = 0; $id <= 5; $id++) {
-	if ($id != 1576683)
-	{
+for ($id = 1; $id <= 5; $id++) {
 	if ($endtime <= time())
 	{
 		exit;
@@ -64,7 +62,6 @@ for ($id = 0; $id <= 5; $id++) {
 	  }
 	  print "!";
 	  }
-  }
 }
 function ripById($id){
 	$pathToDetails = 'http://www.shborujen.ir/DesktopModules/eFormViewer/eFormViewerEdit.aspx?TabID=4753&Site=DouranPortal&MId=14286&Lang=fa-IR&ItemID=1&fID=1228&keyID=itemid%7C' . $id;
