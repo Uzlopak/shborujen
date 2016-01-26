@@ -130,6 +130,7 @@ function validateEntry($id){
 		if ($recordSet[0]['fathername'] != ""){
 			$result = true;	
 		}
+		$result = true;
 	} 
 	} catch (Exception $e) {
 	}
