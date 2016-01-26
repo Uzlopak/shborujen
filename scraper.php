@@ -88,10 +88,7 @@ function ripById($id){
         
         preg_match($fathernamepattern, $output, $temp);
         $fathername = (isset($temp[1])) ? $temp[1] : '';
-        
-        preg_match($birthdatepattern, $output, $temp);
-        $birthdate = (isset($temp[1])) ? $temp[1] : '';
-        
+
         preg_match($deathdatepattern, $output, $temp);
         $deathdate = (isset($temp[1])) ? $temp[1] : '';
         
