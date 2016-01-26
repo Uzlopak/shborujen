@@ -30,7 +30,7 @@ require 'scraperwiki.php';
 
 $endtime = time() + (60*60) * 23; //23h 
 
-for ($id = 1; $id <= 5; $id++) {
+for ($id = 1; $id <= 900; $id++) {
 	if ($endtime <= time())
 	{
 		exit;
